@@ -12,6 +12,7 @@ public class Triangle {
 		double height = s.nextDouble();
 		
 		double area = Triangle(base,height);
+		System.out.println(area);
 	}
 
 	public static double Triangle(double base, double height) {
