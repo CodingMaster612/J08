@@ -7,7 +7,7 @@ public class MiddleThree {
 	}
 
 	public static void Middle3() {
-		int firstNumber, secondNumber, thirdNumber, smallest;
+		int firstNumber, secondNumber, thirdNumber;
 
 		Scanner scanner = new Scanner(System.in);
 
@@ -17,15 +17,15 @@ public class MiddleThree {
 		secondNumber = scanner.nextInt();
 		System.out.println("Enter the third number:");
 		thirdNumber = scanner.nextInt();
-		
-		
-		if(secondNumber > firstNumber && firstNumber > thirdNumber || thirdNumber > firstNumber && firstNumber > secondNumber) {
+
+		if (secondNumber > firstNumber && firstNumber > thirdNumber
+				|| thirdNumber > firstNumber && firstNumber > secondNumber) {
 			System.out.println(firstNumber);
-		}
-		else if(firstNumber > secondNumber && secondNumber > thirdNumber || thirdNumber > secondNumber && secondNumber > firstNumber) {
+		} else if (firstNumber > secondNumber && secondNumber > thirdNumber
+				|| thirdNumber > secondNumber && secondNumber > firstNumber) {
 			System.out.println(secondNumber);
-		}
-		else if(firstNumber > thirdNumber && thirdNumber > secondNumber || secondNumber > thirdNumber && thirdNumber > firstNumber) {
+		} else if (firstNumber > thirdNumber && thirdNumber > secondNumber
+				|| secondNumber > thirdNumber && thirdNumber > firstNumber) {
 			System.out.println(thirdNumber);
 		}
 	}
