@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class 4Digits {
+public class FourDigits {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
