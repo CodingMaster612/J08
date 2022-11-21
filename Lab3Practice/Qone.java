@@ -1,8 +1,8 @@
-package Practice;
+package Lab3Practice;
 
 import java.util.Scanner;
 
-public class Y {
+public class Qone {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         System.out.println("gimme String");
@@ -15,9 +15,10 @@ public class Y {
 
         for (int i = 0; i < someString.length(); i++) {
             if (someString.charAt(i) == letter) {
-
+                someString = someString.replaceAll(Character.toString(letter), emptyString);
             }
         }
 
+        System.out.println(someString);
     }
 }

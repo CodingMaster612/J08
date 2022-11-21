@@ -2,7 +2,7 @@ package Lab3;
 
 public class Duplicate {
     public static void main(String[] args) {
-        String x = Dup("aabc");
+        String x = Dup("aabbccccccccc");
         System.out.println(x);
     }
 
