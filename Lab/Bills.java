@@ -1,11 +1,9 @@
 package Lab;
 
-interface Bills {
-   
-    abstract void bill();
+public interface Bills {
 
-    abstract void insurance();
+    public double gasBill(double amount);
 
-
+    public double carInsurance(double amount);
     
 }
